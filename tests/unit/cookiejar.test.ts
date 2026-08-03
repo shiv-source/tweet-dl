@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { CookieJar } from '../../src/http/cookiejar';
-import type { Cookie } from '../../src/core/types';
+import { CookieJar } from '../../src/http/cookiejar.js';
+import type { Cookie } from '../../src/core/types.js';
 
 function makeCookie(overrides: Partial<Cookie> = {}): Cookie {
     const now = Date.now();

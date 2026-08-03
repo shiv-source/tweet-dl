@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { selectVariant, validateQuality } from '../../src/hls/selector';
-import { UsageError } from '../../src/core/errors';
-import type { StreamVariant } from '../../src/core/types';
+import { selectVariant, validateQuality } from '../../src/hls/selector.js';
+import { UsageError } from '../../src/core/errors.js';
+import type { StreamVariant } from '../../src/core/types.js';
 
 function makeVariant(overrides: Partial<StreamVariant> = {}): StreamVariant {
     return {
@@ -61,7 +61,7 @@ describe('selectVariant', () => {
     });
 
     it('throws on invalid quality', () => {
-        expect(() => selectVariant(variants, '4k')).toThrow(UsageError);
+        expect(() => selectVariant(variants, '4k' as never)).toThrow(UsageError);
     });
 
     it('throws when no video variants', () => {

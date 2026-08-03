@@ -8,7 +8,7 @@ import {
     DownloadError,
     MergeError,
     NetworkError,
-} from '../../src/core/errors';
+} from '../../src/core/errors.js';
 
 describe('error hierarchy', () => {
     it('UsageError exits 2', () => {

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { resolveOutputPath } from '../../src/util/path';
-import { UsageError } from '../../src/core/errors';
+import { resolveOutputPath } from '../../src/util/path.js';
+import { UsageError } from '../../src/core/errors.js';
 import * as path from 'node:path';
 
 describe('resolveOutputPath', () => {

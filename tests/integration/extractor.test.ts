@@ -1,12 +1,12 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
-import { XClient } from '../../src/tweet/client';
-import { extractVideo } from '../../src/tweet/extractor';
-import { HttpClient } from '../../src/http/client';
-import { CookieJar } from '../../src/http/cookiejar';
-import { AuthRequiredError, NoVideoError } from '../../src/core/errors';
-import { createLogger } from '../../src/logger';
+import { XClient } from '../../src/tweet/client.js';
+import { extractVideo } from '../../src/tweet/extractor.js';
+import { HttpClient } from '../../src/http/client.js';
+import { CookieJar } from '../../src/http/cookiejar.js';
+import { AuthRequiredError, NoVideoError } from '../../src/core/errors.js';
+import { createLogger } from '../../src/logger.js';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 

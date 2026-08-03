@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { parseTweetUrl } from '../../src/tweet/url';
-import { UsageError } from '../../src/core/errors';
+import { parseTweetUrl } from '../../src/tweet/url.js';
+import { UsageError } from '../../src/core/errors.js';
 
 describe('parseTweetUrl', () => {
     it('parses standard x.com URL', () => {

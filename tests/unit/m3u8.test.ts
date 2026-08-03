@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { parseMasterPlaylist, parseMediaPlaylist, resolveUri } from '../../src/hls/m3u8';
+import { parseMasterPlaylist, parseMediaPlaylist, resolveUri } from '../../src/hls/m3u8.js';
 
 const fixturesDir = path.resolve(import.meta.dirname, '../fixtures');
 const BASE = 'https://video.twimg.com/amplify_video/123/';
