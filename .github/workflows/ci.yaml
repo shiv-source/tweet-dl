@@ -15,14 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v6.1.0
 
-      - uses: pnpm/action-setup@v6.0.10
+      - uses: pnpm/setup@v1
         with:
-          version: latest
-
-      - uses: actions/setup-node@v6.0.0
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          runtime: node@${{ matrix.node-version }}
 
       - run: pnpm install --frozen-lockfile
 
