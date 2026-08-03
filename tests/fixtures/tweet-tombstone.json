@@ -1,0 +1,12 @@
+{
+  "data": {
+    "tweetResult": {
+      "result": {
+        "__typename": "TweetTombstone",
+        "tombstone": {
+          "text": "This Tweet was deleted by the Tweet author."
+        }
+      }
+    }
+  }
+}

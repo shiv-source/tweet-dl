@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.mp4
+*.tsbuildinfo
+tmp/
+.vite/
+coverage/
+.DS_Store
+*.log
+.husky/_/

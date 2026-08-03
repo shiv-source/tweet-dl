@@ -1,0 +1,38 @@
+{
+  "data": {
+    "tweetResult": {
+      "result": {
+        "__typename": "Tweet",
+        "rest_id": "2083908542592081973",
+        "legacy": {
+          "full_text": "Test tweet with video",
+          "extended_entities": {
+            "media": [
+              {
+                "type": "video",
+                "video_info": {
+                  "duration_millis": 31831,
+                  "variants": [
+                    {
+                      "bitrate": 832000,
+                      "content_type": "video/mp4",
+                      "url": "https://video.twimg.com/amplify_video/2083908473230893056/vid/avc1/720x776/direct.mp4"
+                    },
+                    {
+                      "content_type": "application/x-mpegURL",
+                      "url": "https://video.twimg.com/amplify_video/2083908473230893056/pl/jHo7tr4S9Rj2fHIq.m3u8?tag=29&v=f6b"
+                    }
+                  ]
+                },
+                "original_info": {
+                  "width": 720,
+                  "height": 776
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# This is a comment
+.x.com	TRUE	/	TRUE	0	auth_token	abc123def456
+.x.com	TRUE	/	TRUE	0	ct0	csrf789
+#HttpOnly_.x.com	TRUE	/	TRUE	1799999999	sess	token999
+.twitter.com	FALSE	/	FALSE	0	lang	en
